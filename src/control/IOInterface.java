@@ -99,6 +99,12 @@ public class IOInterface {
                 case "4":
                     displayOrders();
                     break;
+                case "7":
+                    ProductOperation.getInstance().clearAll();
+                    CustomerOperation.getInstance().clearAll();
+                    OrderOperation.getInstance().clearAll();
+                    System.out.println("All data deleted successfully.");
+                    break;
                 case "8":
                     return;
                 default:
