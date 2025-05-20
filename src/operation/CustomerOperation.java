@@ -48,4 +48,7 @@ public class CustomerOperation {
     public List<Customer> getAllCustomers() {
         return customerList;
     }
+    public void clearAll(){
+        customerList.clear();
+    }
 }
