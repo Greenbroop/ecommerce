@@ -45,4 +45,7 @@ public class OrderOperation {
     public List<Order> getAllOrders() {
         return orderList;
     }
+    public void clearAll(){
+        orderList.clear();
+    }
 }
