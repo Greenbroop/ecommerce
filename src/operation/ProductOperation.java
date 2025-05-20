@@ -50,4 +50,7 @@ public class ProductOperation {
     public int getTotalPages(int size) {
         return (int) Math.ceil((double) productList.size() / size);
     }
+    public void clearAll(){
+        productList.clear();
+    }
 }
